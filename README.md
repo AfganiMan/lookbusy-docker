@@ -16,7 +16,7 @@ docker build . t lookbusy
 修改 start.sh中的各项参数，参考如下
 
 ``` shell
-lookbusy -c 50 # 占用所有 CPU 核心各 50%
+lookbusy -c 50 #
 lookbusy -c 50 -n 2 # 占用两个 CPU 核心各 50%
 lookbusy -c 50-80 -r curve # 占用所有 CPU 核心在 50%-80% 左右浮动
 lookbusy -c 0 -m 128MB -M 1000 # 每 1000 毫秒，循环释放并分配 128MB 内存
